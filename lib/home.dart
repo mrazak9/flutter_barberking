@@ -53,7 +53,7 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.white,
         centerTitle: true,
         title: const Text(
-          'Booking',
+          'BOOKING',
           style: TextStyle(
             fontFamily: 'FiraSans',
             fontSize: 16,
@@ -63,6 +63,7 @@ class _HomeState extends State<Home> {
         leading: IconButton(
           onPressed: () {},
           icon: const Icon(Icons.arrow_back),
+          color: Colors.black,
         ),
       ),
       body: Column(
